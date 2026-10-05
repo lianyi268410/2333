@@ -1,4 +1,13 @@
+/*************************************
 
+项目名称： Bloomberg
+
+---
+
+[rewrite_local]
+^https:\/\/mobapi\.bloomberg\.com\/wssmobile\/v1\/user\/subscription url script-response-body https://raw.githubusercontent.com/lianyi268410/2333/refs/heads/master/bloomberg.js
+[mitm]
+hostname = mobapi.bloomberg.com
 
 - ************************************/
 
